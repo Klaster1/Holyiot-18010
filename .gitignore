@@ -1,0 +1,10 @@
+# Downloaded reference documents: docs/README.md links to the sources
+docs/*.pdf
+
+# FreeCAD automatic backups
+*.FCBak
+
+__pycache__/
+
+# Generated render meshes
+build/

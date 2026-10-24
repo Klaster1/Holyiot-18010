@@ -1,0 +1,32 @@
+---
+# Holyiot jig project material. Load it by setting Preferences > Material > Custom directory to <project>/materials.
+General:
+  UUID: "8751821c-8d9e-59d7-80dc-1af2aef63c75"
+  Author: "Holyiot jig project"
+  License: "CC-BY-4.0"
+  Name: "Solder mask, black (LPI epoxy)"
+  Description: "Matte black liquid-photoimageable solder mask."
+Models:
+  Father:
+    UUID: '9cdda8b6-b606-4778-8f13-3934d8668e67'
+    Father: "Plastic"
+  Density:
+    UUID: '454661e5-265b-4320-8e6f-fcf6223ac3af'
+    Density: "1500 kg/m^3"
+  Thermal:
+    UUID: '9959d007-a970-4ea7-bae4-3eb1b8b883c7'
+    SpecificHeat: "1200 J/kg/K"
+    ThermalConductivity: "0.25 W/m/K"
+    ThermalExpansionCoefficient: "0.00006 m/m/K"
+  Electromagnetic:
+    UUID: 'b2eb5f48-74b3-4193-9fbb-948674f427f3'
+    RelativePermittivity: "3.8"
+AppearanceModels:
+  BasicRendering:
+    UUID: 'f006c7e4-35b7-43d5-bbf9-c5d572309e6e'
+    AmbientColor: "(0.0100, 0.0100, 0.0100, 1.0)"
+    DiffuseColor: "(0.0250, 0.0250, 0.0300, 1.0)"
+    EmissiveColor: "(0.0000, 0.0000, 0.0000, 1.0)"
+    Shininess: "0.35"
+    SpecularColor: "(0.3000, 0.3000, 0.3200, 1.0)"
+    Transparency: "0.0"

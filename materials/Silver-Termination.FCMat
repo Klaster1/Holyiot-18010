@@ -1,0 +1,32 @@
+---
+# Holyiot jig project material. Load it by setting Preferences > Material > Custom directory to <project>/materials.
+General:
+  UUID: "f56f90a5-009a-5c13-ada3-8d6e20aad4a5"
+  Author: "Holyiot jig project"
+  License: "CC-BY-4.0"
+  Name: "Silver termination (chip antenna)"
+  Description: "Fired silver / tin-plated end terminations of the chip antenna."
+Models:
+  Father:
+    UUID: '9cdda8b6-b606-4778-8f13-3934d8668e67'
+    Father: "Metal"
+  Density:
+    UUID: '454661e5-265b-4320-8e6f-fcf6223ac3af'
+    Density: "10490 kg/m^3"
+  Thermal:
+    UUID: '9959d007-a970-4ea7-bae4-3eb1b8b883c7'
+    SpecificHeat: "235 J/kg/K"
+    ThermalConductivity: "429 W/m/K"
+    ThermalExpansionCoefficient: "0.0000189 m/m/K"
+  Electromagnetic:
+    UUID: 'b2eb5f48-74b3-4193-9fbb-948674f427f3'
+    ElectricalConductivity: "63000000 S/m"
+AppearanceModels:
+  BasicRendering:
+    UUID: 'f006c7e4-35b7-43d5-bbf9-c5d572309e6e'
+    AmbientColor: "(0.2500, 0.2500, 0.2500, 1.0)"
+    DiffuseColor: "(0.7800, 0.7800, 0.8000, 1.0)"
+    EmissiveColor: "(0.0000, 0.0000, 0.0000, 1.0)"
+    Shininess: "0.55"
+    SpecularColor: "(0.9500, 0.9500, 0.9500, 1.0)"
+    Transparency: "0.0"
